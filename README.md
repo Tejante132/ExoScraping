@@ -6,7 +6,9 @@ Ce repo a pour but de présenter mon petit script python permettant de récupér
 Les références seront récupérées par scraping, probablement en utilisant le module BS4 (beautifulsoup). Elles sont insérées dans un fichier TXT.
 
 Les références sont stockées dans la liste ordonnées trouvable entre les balises : 
+```
 <ol class="references"> ... </ol>
+```
 
 ![references_inspection_page_wiki](https://user-images.githubusercontent.com/100777239/235661007-b1704f75-9165-4b1d-af80-78d55f7b3371.png)
 
