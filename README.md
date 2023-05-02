@@ -17,3 +17,6 @@ Les références seront récupérées par scraping, probablement en utilisant le
 Si j'ai du temps, je ferai en sorte de pouvoir avoir un affichage sur une page Web de façon assez jolie en CSS pur.
 
 Ce mini-projet est un exercice proposé pour ma candidature en tant que stagiaire chez Bib Batteries.
+
+Références : 
+- Documentation de BS4 (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
