@@ -11,6 +11,8 @@ Les références sont stockées dans la liste ordonnées trouvable entre les bal
 <ol class="references"> ... </ol>
 ```
 
+En l'occurence, les références sont la seule liste ordonnée de la page Python, ce qui nous simplifie grandement la tâche pour les trouver avec bs4. On pourrait aussi chercher comment les trouver à partir de la classe "references" afin d'éviter toute confusion dans le cas d'une page qui comporterait d'autres listes ordonnées que pour la liste des références.
+
 ![references_inspection_page_wiki](https://user-images.githubusercontent.com/100777239/235661007-b1704f75-9165-4b1d-af80-78d55f7b3371.png)
 
 ![references_inspection_page_wiki_2](https://user-images.githubusercontent.com/100777239/235661787-fc00337a-a511-4f16-a562-33bc82b9cd45.png)
