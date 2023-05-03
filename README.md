@@ -34,8 +34,8 @@ En faisant tourner le code, j'obtiens le fichier txt suivant :
 
 ### Autres
 C'est un premier jet. Si j'ai du temps par la suite, je ferai en sorte :
-[] de pouvoir donner le lien des références, le cas échéant ;
-[] de pouvoir avoir un affichage sur une page Web de façon assez jolie en CSS pur.
+- de pouvoir donner le lien des références, le cas échéant ;
+- de pouvoir avoir un affichage sur une page Web de façon assez jolie en CSS pur.
 
 ### Références : 
 - [Documentation de BS4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
