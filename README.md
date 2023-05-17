@@ -90,6 +90,7 @@ Page d'accueil du site :
 - [Documentation de BS4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [Web Scraping et Analyse du HTML en Python avec Beautiful Soup](https://www.twilio.com/fr/blog/web-scraping-analyse-html-python-beautiful-soup)
 - [Requests: HTTP for Humans™](https://docs.python-requests.org/en/latest/)
+- [Documentation Django](https://docs.djangoproject.com/en/4.2/)
 
 
 Ce mini-projet est un exercice proposé pour ma candidature en tant que stagiaire chez Bib Batteries.
