@@ -1,0 +1,24 @@
+<!-- J'utilise un gabarit (plutôt utile quand on fait beaucoup de modèles de pages... )-->
+{% extends 'scraping/base.html' %}
+
+{% block title %}Références de {{nom_page}}{%endblock%}
+{% block nom_page %}{{nom_page}}{% endblock %}
+
+{% block content %}
+<h1>Notes et références </h1>
+<!-- Liste ordonnée des références -->
+<ol>
+    {% for ref in infos_refs %}
+        <li class="ref">
+            {{ref}}
+        </li>
+    {% endfor %}
+</ol>
+
+<br>
+<!-- Page wikipédia originale -->
+    <div style ="text-align:center ;">
+        <div class='bouton'><a href={{url_refs}}>Page Wikipédia</a></div>
+    </div>
+
+{%endblock%}

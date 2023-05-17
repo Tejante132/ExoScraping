@@ -1,0 +1,14 @@
+{% extends 'scraping/base.html' %}
+
+{% block title %}Index | Scraping{%endblock%}
+
+{% block content %}
+<h1>Présentation du site</h1>
+    <p>Ce petit site a pour but de donner le scraping des notes et références d'une page wikipédia.</p>
+    <p>Vous y trouverez notamment le scraping de la <a href="https://fr.wikipedia.org/wiki/Python_(langage)">page wikipédia de Python</a> :</p>
+    <br>
+    <div style ="text-align:center ;">
+        <div class='bouton'><a href="{% url 'scraping_refs' 'Python_(langage)' %}">Scraping de la page Python</a></div>
+    </div>
+
+{%endblock%}

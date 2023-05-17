@@ -1,0 +1,123 @@
+			Notes et références de la page Wikipédia pour Python
+
+1.	« The History of Python: A Brief Timeline of Python », Blogger, 20 janvier 2009 (consulté le 20 mars 2016).
+2.	« It's time for another set of Python releases! Python 3.11.3, 3.10.11 and 3.12 alpha 7 are now available. », 5 avril 2023 (consulté le 6 avril 2023)
+3.	(en) « Python 3.12.0 alpha 7 », 5 avril 2023 (consulté le 5 avril 2023)
+4.	(en) « Python License ».
+5.	Download Python for Other Platforms.
+6.	(en) « il faut treize paragraphes pour expliquer un Hello, World! en C++, seulement deux en Python ».
+7.	FAQ Python 1.2 Why was Python created in the first place?.
+8.	Introduction to MacPython.
+9.	(en) Mark Lutz, Learning Python : Powerful Object-Oriented Programming, O'Reilly Media, Inc., 6 octobre 2009, 1216 p. (ISBN 978-1-4493-7932-2, lire en ligne), « How Does Python Stack Up to Langage », p. 17.
+10.	Introduction de la première édition du livre Programming Python de Mark Lutz, Guido van Rossum 1996.
+11.	Selon le fichier HISTORY mais la plus ancienne version accessible dans les archives du forum est la
+0.9.1, également disponible en tarball sur python.org.
+12.	The Grail Development Team.
+13.	Grail -- The Browser For The Rest Of Us.
+14.	28.1 rexec - Restricted execution framework.
+15.	« 19.3. htmllib — A parser for HTML documents — Python 2.7.18 documentation », sur docs.python.org (consulté le 14 août 2020).
+16.	http://grail.sourceforge.net/info/diagram.gif.
+17.	Grail Home Page.
+18.	(en) « Computer Programming for Everybody », sur Python.org (consulté le 14 août 2020).
+19.	Computer Programming for Everybody.
+20.	(en) History of the software.
+21.	Andrew M. Kuchling, Python warts, Python Mailing List, 22 décembre 1999.
+22.	Python Warts.
+23.	Unifying types and classes in Python 2.2.
+24.	(en) « PEP 8 -- Style Guide for Python Code », sur Python.org (consulté le 14 août 2020).
+25.	PEP 8 - Style Guide for Python Code.
+26.	PEP 308 - Conditional Expressions.
+27.	La bibliothèque standard - 31.6. keyword — Tester si des chaînes sont des mot-clés Python.
+28.	La bibliothèque standard - 2. Fonctions natives.
+29.	(en) « Python 3.0 - Core Language Changes ».
+30.	(en) « PEP 3104 - Access to Names in Outer Scopes ».
+31.	Les objets bytes ont été introduits par le PEP 358, voir aussi le PEP 3137.
+32.	Les compréhensions ont été introduites dans le PEP 202 en juillet 2000, et les compréhensions de dictionnaires et d'ensembles dans le PEP 274 en octobre 2001.
+33.	The Python Language Reference » 3. Data model » 3.3. Special method names.
+34.	PEP 380 - Syntax for Delegating to a Subgenerator.
+35.	traits - explicitly typed attributes for Python.
+36.	(en) « PEP 3107 -- Function Annotations », sur Python.org (consulté le 4 mars 2020).
+37.	(en) Collin Winter et Tony Lownds, « Fundamentals of Function Annotations », sur www.python.org, 6 décembre 2006 (consulté le 10 mars 2020).
+38.	« 26.1. typing — Support for type hints — Python 3.6.10 documentation », sur docs.python.org (consulté le 4 mars 2020).
+39.	(en) « PEP 484 -- Type Hints », sur Python.org (consulté le 4 mars 2020).
+40.	http://www.pylint.org.
+41.	http://mypy-lang.org/.
+42.	(en) Site officiel de PyInstaller.
+43.	http://svn.pythonmac.org/py2app/py2app/trunk/doc/index.html#abstract.
+44.	Dive into Python 3 - 1.5 Everything Is An Object.
+45.	Python Tutorial chapitre 9.
+46.	Why must 'self' be used explicitly in method definitions and calls?.
+47.	Python For AppleScripters.
+48.	Kim Barrett, Bob Cassels, Paul Haahr, David A. Moon, Keith Playford et P. Tucker Withington, « A monotonic superclass linearization for Dylan », ACM SIGPLAN Notices, vol. 31, no 10,‎ octobre 1996, p. 69-82 (DOI 10.1145/236337.236343, lire en ligne).
+49.	The Python 2.3 Method Resolution Order.
+50.	Google Python Style Guide.
+51.	Pmw - Python megawidgets.
+52.	(en) « [python-committers] Transfer of power », sur www.mail-archive.com (consulté le 19 octobre 2020).
+53.	(en-US) « Steering Council nomination: Guido van Rossum (2020 term) », sur Discussions on Python.org, 27 novembre 2019 (consulté le 19 octobre 2020).
+54.	Quotes about Python.
+55.	Python Creator Guido van Rossum now working at Google, article sur ONLamp.com
+56.	Python for ArcGIS.
+57.	Bulletin officiel spécial no 3 du 30 mai 2013, article sur http://www.education.gouv.fr/.
+58.	Sujets du concours Mines-Ponts.
+59.	Sujets du concours Centrale-Supélec.
+60.	Python Implementations, dans le Python Wiki.
+61.	« Brython », sur brython.info (consulté le 21 mars 2021).
+62.	Shed Skin.
+63.	Unladen Swallow.
+64.	« RustPython ».
+65.	Python Distributions, dans le Python Wiki.
+66.	ActivePython.
+67.	Python(x,y).
+68.	Enthought.
+69.	Anaconda.
+70.	Intel Distribution for Python.
+71.	Pyzo.
+72.	WinPython.
+73.	Nouveautés de Python sur python.org
+74.	Python 3.0 http://www.python.org/download/releases/3.0/.
+75.	Python 3.1 http://www.python.org/download/releases/3.1/.
+76.	Python 3.2 http://www.python.org/download/releases/3.2/.
+77.	Python 3.3 http://www.python.org/download/releases/3.3.0/.
+78.	« PEP 380 -- Syntax for Delegating to a Subgenerator », sur Python.org (consulté le 27 juillet 2020).
+79.	« Python 3.4 ».
+80.	« Nouveautés de Python 3.4 — Python 3.4.5 documentation », sur docs.python.org (consulté le 2 février 2017).
+81.	« Python 3.5 ».
+82.	« Nouveautés de Python 3.5 — Python 3.5.3 documentation », sur docs.python.org (consulté le 2 février 2017).
+83.	Python 3.6.0.
+84.	PEP 515 - Underscores in Numeric Literals.
+85.	PEP 506 - Adding A Secrets Module To The Standard Library.
+86.	PEP 498 - Literal String Interpolation.
+87.	« Nouveautés de Python 3.7 — Python 3.7.0a4 documentation », sur docs.python.org (consulté le 31 janvier 2018).
+88.	https://docs.python.org/fr/3/library/contextvars.html.
+89.	https://docs.python.org/fr/3/library/asyncio-task.html#awaitables.
+90.	« PEP 553 -- Built-in breakpoint() », sur Python.org (consulté le 27 juillet 2020).
+91.	https://docs.python.org/fr/3/library/time.html#time.time_ns.
+92.	(en) Steven D'Aprano et Brandt Bucher, « PEP 584 », sur python.org, 1er mars 2019 (consulté le 16 novembre 2020).
+93.	(en) Dennis Sweeney, « PEP 616 », sur python.org, 19 mars 2020 (consulté le 16 novembre 2020).
+94.	(en) Paul Ganssle, « PEP 615 », sur python.org, 22 février 2020 (consulté le 16 novembre 2020).
+95.	(en) Łukasz Langa, « PEP 585 », sur python.org, 3 mars 2019 (consulté le 16 novembre 2020).
+96.	(en) Łukasz Langa, « PEP 602 », sur python.org, 4 juin 2019 (consulté le 16 novembre 2020).
+97.	(en) Łukasz Langa, « What’s New In Python 3.9 », sur docs.python.org, 16 novembre 2020 (consulté le 16 novembre 2020).
+98.	(en) Maggie Moss, Philippe PRADOS, « PEP 0604 », sur python.org
+99.	(en) Mark Mendoza, « PEP 0612 », sur python.org
+100.	(en) Shannon Zhu, « PEP 0613 », sur python.org
+101.	(en) Brandt Bucher, « PEP 0618 », sur python.org
+102.	(en) Mark Shannon, « PEP 0626 », sur python.org
+103.	(en) Brandt Bucher, Guido van Rossum, « PEP 0634 », sur python.org
+104.	(en) Tobias Kohn,Guido van Rossum, « PEP 0635 », sur python.org
+105.	(en) Daniel F Moisset, « PEP 0636 », sur python.org
+106.	« À quoi servent les PEP en Python ? », sur Docstring (consulté le 6 avril 2023)
+107.	Index of Python Enhancement Proposals.
+108.	(en) « PEP 8 -- Style Guide for Python Code », sur Python.org (consulté le 20 juin 2021).
+109.	Python 3.0a3 Release.
+110.	Python 3000.
+111.	Should I use Python 2 or Python 3 for my development activity?.
+112.	Support par exemple exigé en France en 2019.
+113.	« La fonction print en Python », sur Docstring (consulté le 6 avril 2023)
+114.	Plan de développement PEP 3000.
+115.	Sam Ruby, 2to3, 1er septembre 2007.
+116.	PEP 361.
+117.	http://code.google.com/p/android-scripting/.
+118.	BlackBerry-Py Project.
+119.	blackberry-py sur Bitbucket.
+120.	BlackBerry-Tart Preview.

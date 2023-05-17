@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Template parent de l'application de finances -->
+{% load static %} <!-- Lien vers les fichiers statiques-->
+
+<html>
+<head>
+    <!-- Titre par défaut-->
+    <title>{% block title %}Scraping de références{% endblock %}</title>
+    <!-- Icône du site -->
+    <link rel="icon" href="{% static 'images/favicon.png' %}" />
+
+    <!-- Mise en forme de la page avec un fichier css chargé à partir des fichiers statiques -->
+    <link rel="stylesheet" href="{% static 'scraping/style.css' %}">
+</head>
+
+<body>
+    <!-- Logo Wikipédia avec retour vers l'index du site -->
+    <div class="header">
+        <a href="{% url 'index' %}"><img width="30px" src="{% static 'images/wikipedia.png' %}" alt="Logo CaMeX-IA"/></a>
+        
+    <!-- Nom de la page par défaut -->
+    Scraping reférences Wikipédia - {% block nom_page %}Index{% endblock %}
+</div>
+
+    <!-- contenu de la page -->
+    <div class="content">
+        {% block content %}Contenu de la page{% endblock %}
+    </div>
+
+    <!-- Pied de page -->
+    <br/>
+    <div class="footer">{% block footer %}ExoScraping - Clotilde GUYARD-GILLES - mai 2023{% endblock %}</div>
+</body>
+
+</html>

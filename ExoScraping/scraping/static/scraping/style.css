@@ -1,0 +1,108 @@
+body {
+    font-size: 16px;
+  }
+
+.header {
+    position: fixed; /* On fait en sorte de toujours pouvoir voir le header*/
+    top: 0;     /* On le fixe en haut de la page*/
+    left: 0;
+    width: 100%; /*largeur de la page*/
+    z-index: 9999; /* pour être sûr que ça s'affiche par dessus le reste */
+    background-color: #607F98;
+    padding: 10px;
+    font-weight: bolder;
+    font-size : 32px;
+    color : white ;
+    text-align: center;
+}
+
+.content {
+    margin-top: 80px;     /*On laisse de la marge pour compenser le header*/
+    margin-bottom : 50px; /* Et là c'est pour le footer */
+    max-width: 800px; /* Largeur maximale du contenu principal  */
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #f5f5f5;
+    padding-top : 10px;
+    padding-bottom: 30px;
+    padding-left  : 50px;
+    padding-right : 50px;
+}
+
+h1 {
+    color: #607F98 ;
+}
+
+
+h2 {
+    color: #B2BBC9 ;
+}
+
+/* Pied de page en petite */
+.footer {
+    font-size: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+/* Les liens sont de couleur normale, mais soulignés */
+a {
+    text-decoration: underline;
+    color: inherit; /* Utilise la couleur héritée du parent */
+  }
+
+a:hover {
+    color :#B2BBC9;
+}
+
+
+/* Style des tableaux présentant des données */
+table {
+    /* On centre les tables */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* En-têtes de tables */
+th {
+    background-color: #607F98;
+    color : white
+}
+
+/* Données de la table */
+tr {
+    background-color : #eeeeee
+}
+
+tr:hover {
+    background-color: #dddddd;
+}
+
+table td, table th {
+    padding : 5px ;
+}
+
+.bouton {
+    border-radius: 10px;
+    padding: 10px; /* On laisse de l'espace entre le texte et la bordure du bouton */
+    color : white ;
+    display : inline-block;  /*Le bouton fait la largeur du texte*/
+    margin : 5px ; /* crée de l'espace entre le bouton et les éléments environnants*/
+    /* On centre le bouton */
+  }
+
+.bouton {
+    background-color: #607F98;
+}
+
+/* Comportement au survol de la souris */
+.bouton:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ref:hover {
+    color :#607F98;
+}
