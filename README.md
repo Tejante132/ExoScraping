@@ -5,6 +5,7 @@ Ce repo a pour but de présenter mon petit script python permettant de récupér
 
 Les références seront récupérées par scraping, probablement en utilisant le **module BS4 (beautifulsoup)**. Elles sont insérées dans un fichier TXT.
 
+## Première partie : renvoyer les références dans un fichier txt
 ### Prérequis pour _run_ le code
 Installer au préalable ```beautifulsoup4``` et ```requests```.
 
@@ -36,10 +37,54 @@ La difficulté que j'ai rencontrée venait de la variété de types de référen
 En faisant tourner le code, j'obtiens le fichier txt suivant : 
 ![Résultat Scraping](https://user-images.githubusercontent.com/100777239/235837958-779ed774-8704-4a73-8bd6-b4baada3e933.png)
 
-### Autres
-C'est un premier jet. Si j'ai du temps par la suite, je ferai en sorte :
-- de pouvoir donner le lien des références, le cas échéant ;
-- de pouvoir avoir un affichage sur une page Web de façon assez jolie en CSS pur.
+## Deuxième partie : faire un affichage web simple
+### Prérequis supplémentaires pour lancer l'application, et donc la page web
+Télécharger le dossier ExoScraping_Site. Aller dans le dossier ExoScraping_Site et exécuter les commandes suivantes :  
+```python manage.py migrate``` et ```python manage.py runserver```. Il faut ensuite se rendre à l'adresse indiquée (généralement http://127.0.0.1:8000/).
+
+### Principe
+Quand j'ai dû faire cet exo, j'étais en train de finir mon projet de site de gestion financière sous Python Django. Donc pour l'affichage web, je me suis dit que je pouvais réutiliseer les connaissances que j'avais développées pour mon projet.
+
+J'ai fait une trame de site toute simple, avec :
+- une page d'index à l'adresse ```/scraping/```
+- une page générique de scraping des références d'une page wikipédia donnée à l'adresse ```/scraping/refs_wiki/nom_de_la_page/```.
+
+Par exemple, pour les références de la page Python (langage) se trouvant à l'adresse https://fr.wikipedia.org/wiki/Python_(langage), il faut se rendre sur la page de mon petit site ```/scraping/refs_wiki/Python_(langage)/```
+    
+On peut donc s'amuser à chercher les références d'autres pages wikipédia.
+
+Le site utilise certes un framework de Python (Django), mais j'ai tout fait "à la main" en termes d'html et de css. Cela explique d'ailleurs l'apparence assez simpliste du site...
+
+### Fonctionnement
+J'ai réadapté légèremet le script que j'avais écrit dans la partie 1.
+
+![code](https://github.com/Tejante132/ExoScraping/assets/100777239/db170c57-29c0-461a-ba2d-0eb5382e6b05)
+
+Les principaux fichiers à voir sont (du plus important au moins important):
+- scraping/views.py
+- scraping/scraping_refs.html
+- scraping/static/scraping/style.css
+- scraping/urls.py.
+
+### Résultats
+Voilà ce qu'on obtient en faisant tourner mon site sous python django:
+
+![Démo du site](https://github.com/Tejante132/ExoScraping/assets/100777239/52571627-40fe-47c3-9760-48da462f2d53)
+
+
+Page d'extraction des références pour la page Python :
+
+![refs_python_1](https://github.com/Tejante132/ExoScraping/assets/100777239/d9f66fe4-6e46-473f-8749-16318a33cb53)
+
+
+Exemple d'adaptation du site aux autres pages wikipédia :
+
+![refs_autres_sites](https://github.com/Tejante132/ExoScraping/assets/100777239/9eb92a68-9f62-463b-8968-ed1c7ef15ab9)
+
+
+Page d'accueil du site : 
+![index_site](https://github.com/Tejante132/ExoScraping/assets/100777239/aa7d86c0-6873-4696-88d0-12d82c571182)
+
 
 ### Références : 
 - [Documentation de BS4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
